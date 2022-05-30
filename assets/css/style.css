@@ -1,3 +1,7 @@
+button:focus {
+  outline: none;
+}
+
 /*---------------------------------------------------------
             Start- Hero section
 ---------------------------------------------------------*/
@@ -20,7 +24,7 @@
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  background: #7b68ee;
+  background: #f70707;
   margin: 2px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,10 +38,6 @@
   color: #fff;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-}
-
-.hero-slider-nav:hover {
-  background-color: #999;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
@@ -89,21 +89,23 @@
   letter-spacing: 0.5px;
 }
 
-#hero .hero-caption .hero-btn button span {
-  color: #fff;
-}
-
-#hero .hero-caption .hero-btn button:hover span {
-  color: #333;
-}
-
 #hero .active .hero-slider-item h2 {
   -webkit-animation-fill-mode: both;
+<<<<<<< Updated upstream
           animation-fill-mode: both;
   -webkit-animation-duration: 1.2s;
           animation-duration: 1.2s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
+=======
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+>>>>>>> Stashed changes
 }
 
 #hero .active .hero-slider-item p {
@@ -130,12 +132,6 @@
           animation-delay: 0.5s;
   -webkit-animation-delay: 0.8s;
           animation-delay: 0.8s;
-}
-
-@media (max-width: 770px) {
-  .hero-caption h2 {
-    font-size: 30px !important;
-  }
 }
 
 /*---------------------------------------------------------
